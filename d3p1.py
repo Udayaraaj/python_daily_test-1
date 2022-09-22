@@ -31,6 +31,7 @@ print("Enter the values: ")
 for i in range(0,ele):
     val=int(input())
     price.append(val)
-print("Maximum profit is 0" )
+print(maxProfit(price,len(price)) )
+
 
 
